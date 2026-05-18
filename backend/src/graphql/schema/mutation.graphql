@@ -1,0 +1,12 @@
+type Mutation {
+  createUser(username: String!, password: String): User!
+  createPost(
+    title: String!
+    subtitle: String
+    body: String!
+    authorId: String!
+  ): Post!
+  createComment(body: String!, commenterId: ID!, postId: ID!): Comment!
+
+  likePost(userId: ID!, postId: ID!): Like!
+}
