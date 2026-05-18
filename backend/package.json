@@ -13,6 +13,8 @@
   "license": "ISC",
   "packageManager": "pnpm@10.32.1",
   "dependencies": {
+    "@graphql-tools/load-files": "^7.0.1",
+    "@graphql-tools/merge": "^9.1.9",
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
     "dotenv": "^17.4.2",
