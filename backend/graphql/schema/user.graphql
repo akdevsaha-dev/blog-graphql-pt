@@ -1,8 +1,0 @@
-type user {
-  id: ID!
-  username: String!
-  posts: [Post!]!
-  comments: [Comment!]!
-  likes: [Like!]!
-  createdAt: String!
-}
